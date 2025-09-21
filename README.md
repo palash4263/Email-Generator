@@ -1,12 +1,25 @@
-# React + Vite
+✨ Email Reply Generator
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+🚀 Email Reply Generator is a full-stack application that leverages Java Spring Boot (backend) and React + Vite + Material-UI (frontend) to automatically craft professional, friendly, or casual email responses using the Google Gemini API.
 
-Currently, two official plugins are available:
+This project showcases how AI can be integrated into modern web applications with a clean, aesthetic UI and a scalable backend.
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+🌟 Features
 
-## Expanding the ESLint configuration
+AI-Powered Replies → Generates professional, casual, or friendly email responses.
+Spring Boot Backend → Handles API requests, integrates with Gemini AI, and serves as a secure middleware.
+Modern Frontend (React + Vite) → Fast, responsive, and styled with Material-UI for a futuristic, space-themed look.
+Customizable Tone → Choose different tones for your replies (Professional, Casual, Friendly).
+One-Click Copy → Copy generated replies directly to clipboard with animation feedback.
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+🛠️ Tech Stack
+Frontend:
+React (Vite)
+Material-UI (MUI)
+Axios (for API calls)
+Backend:
+Java 17+
+Spring Boot 
+3 Spring WebFlux (WebClient for API calls)
+AI Integration:
+Google Gemini API
